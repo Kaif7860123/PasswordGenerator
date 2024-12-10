@@ -31,7 +31,6 @@ const PasswordGenerate = () => {
        const copyPassword=useCallback(()=>{
         passwordRef.current?.select(password)
        window.navigator.clipboard.writeText(password)
-
        },[password])
   return (
     <>
